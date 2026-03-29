@@ -45,8 +45,12 @@ def build_pyg_graph() -> Data:
             labels.append(-1)
     y = torch.tensor(labels, dtype=torch.long)
 
-    src = [node_id_map[n] for n in edges.iloc[:, 0].values if n in node_id_map]
-    dst = [node_id_map[n] for n in edges.iloc[:, 1].values if n in node_id_map]
-    edge_index = torch.tensor([src, dst], dtype=torch.long)
+    valid_pairs = [
+        (node_id_map[s], node_id_map[d])
+        for s, d in zip(edges.iloc[:, 0].values, edges.iloc[:, 1].values)
+        if s in node_id_map and d in node_id_map
+    ]
+    src, dst = zip(*valid_pairs) if valid_pairs else ([], [])
+    edge_index = torch.tensor([list(src), list(dst)], dtype=torch.long)
 
     return Data(x=x, edge_index=edge_index, y=y)

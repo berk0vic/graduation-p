@@ -19,7 +19,7 @@ class Trainer:
         weight_decay: float = 1e-4,
         lambda1: float = 0.1,
         lambda2: float = 0.01,
-        focal_alpha: float = 0.25,
+        focal_alpha: float = 0.75,
         focal_gamma: float = 2.0,
         device: str = "auto",
     ):
