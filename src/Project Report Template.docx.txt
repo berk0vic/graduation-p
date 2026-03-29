@@ -1,0 +1,449 @@
+﻿TITLE OF THE PROJECT
+
+
+
+
+
+
+
+
+by
+Name Surname
+
+
+
+
+
+
+
+
+Engineering Project Report
+
+
+
+
+
+
+
+
+Yeditepe University
+Faculty of Engineering 
+Department of Computer Engineering
+2013
+________________
+
+
+________________
+TITLE OF THE PROJECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APPROVED BY:
+
+
+Assist.Prof.Dr. Name Surname          ………………………………
+(Supervisor) 
+Assoc.Prof.Dr. Name Surname            ………………………………
+Prof.Dr. Name Surname                  ………………………………
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATE OF APPROVAL:   /   /2013
+________________
+
+
+ACKNOWLEDGEMENTS
+First of all I would like to thank my advisor Assist. Prof. Dr. Name Surname for his guidance and support throughout my project. Also I would like to thank… 
+Also I would like..
+
+
+
+
+
+
+________________
+ABSTRACT
+TITLE OF THE PROJECT
+
+
+Here we write the abstract of the project in English.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In posuere felis nec tortor. Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie. Donec dictum lectus non odio. Cras a ante vitae enim iaculis aliquam. Mauris nunc quam, venenatis nec, euismod sit amet, egestas placerat, est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id elit. Integer quis urna. Ut ante enim, dapibus malesuada, fringilla eu, condimentum quis, tellus. Aenean porttitor eros vel dolor. Donec convallis pede venenatis nibh. Duis quam. Nam eget lacus. Aliquam erat volutpat. Quisque dignissim congue leo.
+
+
+________________
+
+
+ÖZET
+TITLE OF THE PROJECT
+
+
+Here we write the abstract of the project in Turkish.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In posuere felis nec tortor. Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie. Donec dictum lectus non odio. Cras a ante vitae enim iaculis aliquam. Mauris nunc quam, venenatis nec, euismod sit amet, egestas placerat, est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id elit. Integer quis urna. Ut ante enim, dapibus malesuada, fringilla eu, condimentum quis, tellus. Aenean porttitor eros vel dolor. Donec convallis pede venenatis nibh. Duis quam. Nam eget lacus. Aliquam erat volutpat. Quisque dignissim congue leo.
+________________
+
+
+TABLE OF CONTENTS
+1.        INTRODUCTION        1
+2.        BACKGROUND        3
+2.1.        Previous works        3
+3.        ANALYSIS        6
+3.1.        Character Fonts        6
+3.2.        Spacing        6
+3.3.        Left Adjusting        6
+3.4.        Margins        7
+3.5.        Pagination        7
+3.6.        Headings        9
+3.6.1.        Main Headings        9
+3.6.2.        Second Headings        9
+3.6.3.        First Subheadings        10
+3.6.4.        Second Subheadings        10
+3.7.        Footnotes        11
+3.8.        Bibliographical Material        11
+3.9.        Specially Designated Expressions        12
+3.10.        Tables and Figures        12
+4.        DESIGN AND IMPLEMENTATION        14
+4.1.        Title Page        14
+4.2.        Approval Page        14
+4.3.        Dedication        14
+4.4.        Acknowledgements        14
+4.5.        Abstract        15
+4.6.        Table of Contents, List of Figures, Tables and Symbols / Abbreviations        15
+4.7.        Text        15
+4.8.        Appendices        16
+5.        TEST AND RESULTS        17
+5.1.        Typesetting        17
+5.2.        Paper Quality        17
+5.3.        Printer        17
+5.4.        Reproduction        17
+5.5.        Binding        18
+6.        CONCLUSION        20
+6.1.        Use of Copyrighted Material        20
+6.2.        Publications        20
+Bibliography        21
+APPENDIX A: SAMPLE PAGES        22
+APPENDIX B: FORMAT OF DISKETTE, CD or DVD CONTAINING COMPUTER SOFTWARE        23
+
+
+
+
+________________
+LIST OF FIGURES
+Figure 1.1 Lorem ipsum dolor        1
+Figure 2.1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim        2
+________________
+
+
+LIST OF TABLES
+Table 1.1 Pellentesque habitant morbi tristique senectus        1
+Table 1.2 Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie        2
+
+
+________________
+
+
+LIST OF SYMBOLS / ABBREVIATIONS
+OCR                 Optical Character Recognition
+MATLAB        Matrix Laboratory
+  
+                Geometric moment of order (p+q)
+f(x,y)                Deterministic real image intensity function
+  
+                Centralized moment of order (p+q)
+  
+                Normalized moment of order (p+q)
+I                Extended moment invariant
+Pt                Empirical distribution
+Xf                Predictor
+
+
+________________
+
+
+1. INTRODUCTION 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.
+  
+
+Figure 1.1 Lorem ipsum dolor
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In posuere felis nec tortor. Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie. Donec dictum lectus non odio.
+Table 1.1 Pellentesque habitant morbi tristique senectus
+ante
+	aliquam
+	venenatis
+	2
+	3
+	4
+	
+
+ Cras a ante vitae enim iaculis aliquam. Mauris nunc quam, venenatis nec, euismod sit amet, egestas placerat, est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id elit. Integer quis urna. Ut ante enim, dapibus malesuada, fringilla eu, condimentum quis, tellus. Aenean porttitor eros vel dolor. Donec convallis pede venenatis nibh. Duis quam. Nam eget lacus. Aliquam erat volutpat. Quisque dignissim congue leo.
+Table 1.2 Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie
+ante
+	aliquam
+	venenatis
+	23
+	32
+	41
+	2. Background
+—Entry
+   1. General Introduction to AI in Financial Fraud
+Yang et al. [1] conducted a comprehensive systematic literature review based on the PRISMA framework to synthesize the current applications and trajectories of artificial intelligence in financial fraud detection . Recognizing that digital finance is evolving rapidly, the authors aimed to map findings across various fraud categories—including traditional credit card fraud, insurance fraud, and emerging decentralized finance (DeFi) or cryptocurrency scams . By rigorously filtering 122 high-quality peer-reviewed studies published between 2015 and 2025 across major databases such as IEEE Xplore and Scopus, they assessed methodological qualities and modeling paradigms. Their findings identified severe dataset scarcity and extreme class imbalance as the primary bottlenecks hindering current research . Furthermore, Yang et al. [1] highlighted a distinct paradigm shift from traditional machine learning toward hybrid Graph Neural Network (GNN) and Natural Language Processing (NLP) models, ultimately providing a structured roadmap for future dataset construction and privacy-preserving federated learning architectures .
+Chen et al. [2] performed an extensive bibliometric and systematic review of 108 peer-reviewed publications from 2019 to 2024 to evaluate the practical applicability of deep learning (DL) in financial fraud detection . The primary motivation behind their study was to systematically bridge the gap between technical algorithmic innovations and real-world sector-specific constraints, such as strict data privacy regulations . By utilizing the Kitchenham literature review framework and employing Python-driven keyword co-occurrence network visualizations, the researchers extracted and standardized data across various financial domains . Their analysis revealed that while credit card datasets heavily dominate the research landscape, there is a major architectural shift toward utilizing Convolutional Neural Networks (CNNs), Graph Neural Networks (GNNs), and Transformers . Ultimately, Chen et al. [2] introduced a novel Deep Learning–Sector–Governance (DLSG) framework to guide the development of scalable, operationally relevant, and legally compliant fraud detection systems
+Lopez-Rojas et al. [3] addressed one of the most critical barriers in financial fraud research: the lack of publicly available, legitimate datasets due to stringent privacy and confidentiality constraints . To overcome this, the researchers developed PaySim, a financial mobile money simulator designed to generate highly realistic synthetic transaction data . By employing Agent-Based simulation techniques coupled with complex mathematical statistics, they extracted the core behavioral patterns, statistical distributions, and transaction volumes from a real, proprietary mobile money dataset provided by an African financial institution . After validating the simulator by comparing its outputs directly against the original private data, Lopez-Rojas et al. [3] successfully generated a robust synthetic dataset containing approximately 23 million records across various transaction categories. This contribution has become a foundational resource for the academic community, enabling the rigorous testing of machine learning models in a privacy-compliant manner.
+
+
+2.2.  Data Preprocessing and Imbalance Mitigation
+Alabrah [4] proposed an improved credit card fraud (CCF) detection framework that rigorously integrates outlier normalization, feature selection, and data oversampling to combat extreme class imbalance . The study argued that existing solutions often overlook the presence of noisy outliers before applying class balancing techniques, which inadvertently causes models to synthesize new minority instances based on corrupted data . To rectify this, the researcher implemented a robust preprocessing pipeline using the Inter-Quartile Range (IQR) method to cap outlier values, followed by the Shapiro method to rank and select the 20 most prominent features . Subsequently, the SMOTEN method is applied to equalize the minority and majority classes (Figure 2.1). By conducting extensive experiments on the Kaggle European Credit Card dataset using five machine learning classifiers across four different train-test splits (e.g., 80-20, 70-30), the author demonstrates that applying outlier normalization prior to SMOTEN yields a perfect AUC score of 1.00 . This proves that meticulous data cleaning is an absolute prerequisite for effective class imbalance mitigation.
+  
+[a]
+             Figure 2.1: Outlier Normalization and Feature Selection Pipeline [4]
+         Radi et al. [5] conducted a comprehensive comparative study to evaluate the specific impacts of advanced data preprocessing techniques on the performance of both traditional machine learning and deep learning algorithms . Recognizing that severe class imbalance leads classifiers to heavily favor legitimate transactions while missing rare fraud cases, the researchers implemented a strict preprocessing pipeline involving Min-Max and Z-Score normalization alongside feature selection . Crucially, they applied the Synthetic Minority Oversampling Technique (SMOTE) to balance the dataset synthetically before passing the features into Random Forest (RF), Support Vector Machine (SVM), Convolutional Neural Network (CNN), and Long Short-Term Memory (LSTM) models . Evaluated on the Kaggle dataset, the comparative analyses confirmed that SMOTE universally improved performance across all tested algorithms. The authors found that the CNN model achieved the highest overall performance with 95% accuracy and a 94% F1-score when paired with Z-score normalization, underscoring the immense value of combining deep learning with synthetic data balancing .
+Albalawi and Dardouri [6] addressed the growing complexity of fraudulent activities and the significant challenge of severe class imbalance by developing a hybrid methodology that leverages both traditional machine learning and advanced deep learning . The researchers posited that standard loss functions fail to penalize misclassified minority instances adequately. To solve this, they applied SMOTE for data balancing, utilized Grid Search for hyperparameter tuning, and integrated a focal loss function into their deep learning framework to force the network to concentrate heavily on hard-to-classify, rare fraudulent transactions . The models were evaluated using 5-fold stratified cross-validation on the Kaggle European credit card dataset, comparing the enhanced deep learning architecture against baseline classifiers like Logistic Regression, Decision Tree, and Random Forest . The results published by The authors  indicated that while the Random Forest model provided the highest overall accuracy (99.95%), the focal-loss-enhanced deep learning model was statistically superior in maximizing precision and drastically minimizing false positive alarms, making it highly suitable for real-world banking environments.
+Sundaravadivel et al. [7] designed an optimized fraud detection framework by integrating the Random Forest algorithm with the Synthetic Minority Oversampling Technique (SMOTE) to resolve the extreme class imbalance typically found in credit card transaction data . The researchers identified that raw transaction datasets are overwhelmingly skewed toward legitimate transactions, which severely degrades the reliability of real-time anomaly detection systems . To mitigate this, they applied SMOTE during the initial data preprocessing stage to synthesize minority fraud instances, creating a balanced training environment . This refined data was then used to train and fine-tune a Random Forest classifier. By designing comparative experiments against alternative baseline classifiers such as Decision Trees and AdaBoost, The Authors demonstrated that handling data imbalance with SMOTE prior to classification optimized model accuracy to approximately 99.5%. Their findings validated that this specific algorithmic combination provides a reliable, fast-acting strategy for deploying responsive, real-time cybersecurity systems in financial environments.
+
+
+2.3.  Graph Neural Networks (GNNs) and Relational Modeling
+Nguyen and Le [8] proposed a Heterogeneous Temporal Graph Neural Network (HTGNN) tailored specifically for real-time transaction fraud detection, aiming to overcome the severe limitations of models that rely purely on static features. Traditional tabular methods fail to generalize against dynamic fraud patterns because they miss both the temporal evolution and the spatial interactions between transacting entities. To capture these dynamics, the researchers transformed financial transaction data into a comprehensive heterogeneous temporal graph structure that tracked semantic context, spatial linkages, and temporal sequences over multiple hop depths. To ensure the model could operate in live environments, they implemented a dual-layer architecture consisting of BatchNet for deep relational learning and SpeedNet for rapid inference. By benchmarking the architecture on the IEEE-CIS and PaySim synthetic datasets, the authors demonstrated that the 2-hop HTGNN significantly outperformed traditional models like LightGBM, achieving an AUC-ROC of 0.956 while maintaining an exceptionally rapid prediction time of just 1.67 milliseconds.
+
+
+Sultana et al. [9] introduced "detectGNN," an innovative framework that harnesses the power of Graph Neural Networks to enhance fraud detection in credit card transactions . The authors argued that traditional machine learning methods struggle with complex, multi-layered trickery and synthetic identities because they view transactions in isolation . To expose hidden topological connections, they constructed a heterogeneous graph where nodes represented distinct entities such as transactions, credit cards, and merchants . A hierarchical approach was then applied, utilizing temporal encodings, decision tree binning, and graph attention mechanisms to effectively aggregate structural features from a node's local neighborhood . By modeling credit card behaviors as temporal transaction graphs and evaluating the integration of node-level and graph-level features, the authors proved that capturing structural network details significantly boosts a model's capacity to recognize complicated fraud patterns that easily evade classical algorithms .
+
+
+
+
+Osmond and Dirgantoro [10] addressed the severe computational bottlenecks associated with deploying full-scale Graph Neural Networks by proposing the Graph-based Relational Anomaly Network (GRAN) framework . The researchers sought to efficiently model relational patterns within financial transaction networks without incurring the high processing costs of explicit message-passing algorithms . To achieve this, they engineered multi-scale features—including customer-level behaviors, merchant-specific risk indicators, network-aware interactions, and temporal signatures—using statistical aggregations rather than deep graph convolutions . After applying a balanced sampling strategy, these graph-inspired features were fed into a weighted ensemble classifier consisting of Random Forest, Gradient Boosting, and Logistic Regression . Through rigorous experimentation using stratified train-test splits on credit card datasets, the authors demonstrated that the GRAN model achieved an outstanding F1-score of 0.9463 and an AUC of 0.9914 . This study successfully proved that extracting topological insights for classical machine learning models delivers state-of-the-art performance with minimal computational overhead.
+Liu et al. [11] developed TADDY, a dynamic graph anomaly detection framework designed to identify anomalous nodes and edges in rapidly time-evolving networks . Because malicious behaviors in domains like cryptocurrency transactions evolve continuously, the researchers recognized that static graph modeling is insufficient . To capture both structural interactions and temporal context, they utilized a novel combination of contextual node sampling and sliding time windows, processing interactions across multiple layers to generate robust temporal embeddings via a Transformer architecture . The framework was rigorously tested by injecting a specific percentage of anomalous edges randomly into snapshots of massive networks like Bitcoin-Alpha and Bitcoin-OTC . The results published by the authors  showed that TADDY is highly sensitive to dynamic behavioral shifts, achieving strong AUC values of 0.95 and 0.94 respectively, establishing a new benchmark for anomaly detection in temporal financial graphs
+Kabwama et al. [12] applied Graph Attention Networks (GAT) to detect fraudulent credit card transactions by adopting a relational learning approach . The authors recognized that modern fraudsters utilize subtle, coordinated techniques—such as shared devices and synchronized small-value transfers—that are nearly impossible to detect when analyzing transactions in isolation . To counter this, they constructed a heterogeneous MultiGraph representing merchants and cardholders as interconnected nodes, with the financial transactions acting as the connective edges . After filling missing values and normalizing transaction amounts, they trained a GAT model to learn the structural dependencies and weight the importance of neighboring nodes automatically . Evaluated on the simulated IBM credit card transaction dataset using a standard train-test split, the authors demonstrated that the GAT model successfully learned the relational structures, achieving an accuracy of 88.0% and an F1-score of 85.4%, thereby outperforming traditional baseline models like Random Forest by leveraging network topologies .
+Duan et al. [13] introduced CaT-GNN, an advanced method leveraging causal invariant learning alongside temporal graph neural networks to enhance fraud detection . The motivation for this research stemmed from the observation that standard GNN-based methods indiscriminately aggregate information from a node's local structure, failing to differentiate between attributes that causally drive fraud and attributes that are merely environmental or coincidental . To resolve this, they utilized a specialized attention mechanism to act as a "Causal Inspector," identifying causal nodes versus environmental nodes . They then applied a causal mix-up strategy (Causal Intervener) to augment the model's training data without adding complex computational parameters . Extensively evaluated on a private financial dataset (S-FFSD) and public datasets like YelpChi and Amazon using AUC and Average Precision metrics, the authors proved that CaT-GNN demonstrates superior performance over existing state-of-the-art methods, confirming that causal reasoning drastically improves a model's robustness and generalizability against feature camouflage .
+Sha et al. [14] proposed a Heterogeneous Graph Neural Network (HGNN) framework incorporating a Graph Attention Mechanism and a Temporal Decay Mechanism to replace traditional numerical models . The researchers argued that conventional algorithms rely solely on one-dimensional numerical features, entirely ignoring the complex, multi-layered relational topology of credit card transactions over time . To capture these hidden dynamics, they constructed a heterogeneous graph of users, merchants, and transactions, dynamically assigning weights to different relationship types using graph self-attention(Figure 2.2) . Furthermore, they addressed time-sensitive fraud patterns by implementing a temporal decay mechanism that heavily weights recent behaviors, combined with SMOTE to handle data imbalance . Tested rigorously on the massive IEEE-CIS Fraud Detection dataset against established baselines like GCN, GAT, and GraphSAGE, the authors  achieved 94.7% accuracy and an OC-ROC of 0.921, proving the exceptional efficiency of heterogeneous attention in revealing complex, organized transaction rings .
+  
+
+          Figure 2.2: Heterogeneous Graph Construction for Financial Networks [14]
+Hamilton et al. [15] proposed GraphSAGE, a foundational general inductive framework that leverages node feature information to efficiently generate node embeddings for previously unseen data . The authors noted that previous graph embedding approaches, based on matrix factorization (like DeepWalk), were inherently transductive; they required training a distinct, rigid embedding vector for every single node, failing completely to generalize to new, unseen nodes in evolving networks . Instead of mapping distinct embeddings, the researchers trained a set of aggregator functions (such as mean, LSTM, or pooling) that learned to aggregate feature information from a node’s local neighborhood across different network search depths . By evaluating the framework on massive multi-graph datasets, the authors demonstrated that GraphSAGE improved classification F1-scores by an average of 51% compared to using raw features alone . More importantly, the model successfully generalized to entirely unseen graphs, creating an industry-standard architecture for modern, scalable graph-based fraud detection .
+
+
+2.4.  Explainable AI (XAI) and Regulatory Compliance
+Almalki and Masud [16] developed a highly robust fraud detection framework by combining a stacking ensemble of gradient boosting models with Explainable Artificial Intelligence (XAI) (Figure 2.3). The primary goal of their research was to provide a reliable solution that merges exceptionally high predictive performance with absolute model transparency, which is legally mandated for financial organizations to comply with strict regulatory requirements . After handling missing data, they applied SHapley Additive exPlanations (SHAP) for precise feature selection, training a stacking ensemble of XGBoost, LightGBM, and CatBoost with an XGBoost meta-learner . To solve the "black-box" problem, they utilized Local Interpretable Model-agnostic Explanations (LIME), Partial Dependence Plots (PDP), and Permutation Feature Importance to explain the predictions . Evaluated on the expansive IEEE-CIS dataset, the authors  reported that the model achieved 99% accuracy and an AUC-ROC of 0.99, successfully proving that institutions can deploy highly accurate AI while still providing clear, local, and global decision explanations to auditors .
+  
+
+                Figure 2.3: Explainable AI Layer for Model Transparency [16]
+
+
+Ojo and Tomy [17] focused on bridging the critical gap between high-accuracy prediction and model interpretability by applying Explainable AI (XAI) techniques to credit card fraud detection . The researchers noted that while complex ensemble models like Random Forest and Gradient Boosting achieve stellar accuracy, their "black-box" nature creates a severe trust deficit among stakeholders and struggles to meet strict regulatory transparency mandates such as the GDPR . To address this, they used SMOTE to balance their dataset, trained Random Forest and Gradient Boosting classifiers, and subsequently integrated SHAP to provide global feature importance scores . They paired this with LIME to generate local, instance-level explanations for individual fraudulent transactions . Through their evaluations, the authors found that Random Forest reached 95% accuracy and Gradient Boosting reached 96%, while the XAI outputs successfully exposed that factors like transaction amount and distance from home were critical predictors . This study confirmed that interpretability can be seamlessly integrated without sacrificing the high accuracy achieved by complex algorithms .
+Prashanth et al. [18] addressed the pressing need for highly accurate yet interpretable fraud detection systems by deploying TabNet, an adaptive deep learning framework specifically tailored for structured tabular data . The authors observed that traditional Deep Neural Networks (DNNs), CNNs, and LSTMs operate as uninterpretable "black boxes" and frequently suffer from classification collapse when applied to non-sequential, highly imbalanced tabular financial data . To overcome this, they balanced an Indian bank transaction dataset using SMOTE and implemented TabNet, which utilizes a sparse attention mechanism to dynamically select and reveal the most relevant features at each decision step, ensuring built-in interpretability . By employing a 3-fold cross-validation framework and benchmarking TabNet against DNN, GRU, LSTM, and CNN1D architectures, the authors demonstrated that TabNet vastly outperformed competitors with an ROC-AUC of 0.9739 and 97.39% accuracy . The research proved that deep learning architectures optimized specifically for tabular data offer vastly superior performance and vital explainability over generic neural networks .
+Olaniyi et al. [19] developed an integrated Graph Neural Network-Explainable Artificial Intelligence (GNN-XAI) framework to detect complex, multi-layered financial crime networks . The researchers aimed to uncover sophisticated schemes, such as money laundering and collusive rings, which easily evade traditional one-dimensional tabular models by hiding their activities across complex relational topologies . They constructed heterogeneous graphs mapping transaction flows, entity relationships, and device linkages, engineering over 400 features . Utilizing a Graph Attention Network (GAT) for structural node embeddings, they then integrated exact SHAP value computations directly into the pipeline to ensure regulator-ready explainability . Through rigorous evaluation across the IEEE-CIS Fraud Detection and Elliptic Bitcoin datasets using stratified cross-validation, the authors reported that the GNN-XAI model achieved an AUC-ROC of 0.874 . This success proved that combining multi-layered relational network analysis with clear XAI visual evidence is highly effective for both uncovering and legally prosecuting sophisticated financial crimes .
+Tewari et al. [20] introduced the Time-Aware Multi-Relational Guided Graph Neural Network (TMR-GGNN) to perform real-time, explainable credit card fraud detection . The researchers aimed to strike a critical balance between the necessity for high-security anomaly detection in milliseconds and the strict regulatory compliance requirements that demand human-interpretable evidence for automated decisions . To achieve this, they modeled financial transactions as heterogeneous temporal graphs, incorporating specific temporal and relational guidance mechanisms to track fraud evolution . Crucially, they adapted post-hoc explainability techniques, specifically GNNExplainer and PGExplainer, embedding them into the architecture . Evaluating the system's capabilities in a simulated production environment focused on stringent latency requirements, the authors demonstrated that the model secured an F1-score of 0.94 and reduced false positives by 34% compared to traditional models . Operating with high computational efficiency, the architecture successfully provided transparent, visual evidence to investigators, bridging the gap between advanced network analytics and operational accountability .
+
+
+2.5.  Hybrid, Sequential, and Adaptive Architectures
+
+
+Mienye et al. [21] proposed an advanced hybrid framework integrating a Variational Autoencoder (VAE), a Graph Attention Network (GAT), and an XGBoost stacking ensemble to address severe class imbalance in fraud detection . The authors recognized that evolving fraudulent behaviors exhibit both feature-level irregularities and complex relational patterns, which single-paradigm models struggle to capture simultaneously . To tackle this, they used an unsupervised VAE trained on non-fraudulent data for probabilistic anomaly detection(Figure 2.4). Concurrently, they constructed transaction graphs for the GAT to extract topological node embeddings, and subsequently fused both the probabilistic and structural outputs into an XGBoost meta-classifier for final prediction . By validating the architecture using stratified 5-fold cross-validation on the European Credit Card and IEEE-CIS Fraud Detection datasets, the authors demonstrated that the Hybrid-XGBoost model reached an exceptional AUC of 0.995 on the European dataset . This study proved that effectively joining unsupervised autoencoder anomalies with structural graph learning yields vastly superior predictive performance over baseline models .
+  
+
+                      Figure 2.4: Hybrid GAT-VAE System Architecture[21]
+Bolla et al. [22] introduced the Graph-Enhanced Transformer Network (GETNet), a highly adaptive hybrid architecture merging Graph Neural Networks (GNNs) and Transformers . The research was motivated by the sheer volume and high-dimensionality of real-time, unstructured data generated in modern digital and cloud-based banking environments, where conventional AI fails to retain sequence orders and detect multi-infrastructure anomalies . To overcome these scaling and integration challenges, they used GNNs to build transaction relationships via an adjacency matrix, learning the structural connections . They then applied a Transformer Encoder leveraging multi-head self-attention to identify temporal sequences and dependencies across the financial timeline . Evaluated thoroughly on the PaySim mobile money dataset against classical methods like Decision Trees and SVMs, the authors showed that GETNet demonstrated superior performance with 99.5% accuracy, 99.7% precision, and an F1-score of 99.5% . This proved that combining spatial graph mapping with sequential Transformer mechanisms is highly effective for end-to-end transaction analysis .
+
+
+Udoh and Bakare [23] proposed a hybrid artificial intelligence approach that explicitly fuses Graph Neural Networks (GNNs) with transactional behavior pattern analysis to combat sophisticated financial fraud . The authors noted that conventional one-dimensional machine learning classifiers fail to exploit inter-transactional relationships and topology, which are essential to detect collusive behaviors, fraud rings, and synthetic identities . To solve this, they combined tabular transaction sequences—capturing individual behavior metrics like burstiness or merchant switching—with graph-structured data encompassing node degrees, edge weights, and topological context into a joint integration layer . The hybrid model was systematically evaluated across real-world and simulated datasets spanning retail banking, digital wallets, and cryptocurrency . The results reported by the authors indicated that the hybrid architecture significantly outperformed standalone ML and GNN models, achieving an AUC of 0.976 and improving early warning detection rates by 24%, all while successfully maintaining explainability via attention visualization .
+Benchaji et al. [24] developed a novel credit card fraud detection system based on sequential modeling by combining Long Short-Term Memory (LSTM) networks with an attention mechanism . The researchers identified that traditional models ignore the sequential, chronological context of consumer spending behavior . Furthermore, they noted that standard LSTMs struggle with long sequences because they treat all input elements equally, failing to prioritize the most critical transactions . To address this, they utilized Uniform Manifold Approximation and Projection (UMAP) for dimensionality reduction and applied SMOTE to handle data imbalance . Crucially, they integrated an attention layer just before the LSTM layers, allowing the classifier to automatically assign higher weights to the most relevant and suspicious data items in the input sequence . Evaluated on two diverse datasets against standard LSTM, GRU, SVM, and ANN models, the authors  demonstrated that the LSTM-attention model achieved superior accuracy (up to 0.9748) and highly improved recall (0.9722), successfully catching rare fraudulent sequences and minimizing costly false negatives .
+
+
+Vitulyova et al. [25] proposed a robust hybrid GNN-LSTM model explicitly designed for attack vector reconstruction and anomaly prediction . The primary motivation was to capture both the structural relationships and the temporal dynamics of complex, multi-stage threats in rapidly evolving network security and financial environments . To achieve this, the researchers integrated the structural analysis of topological attack patterns via Graph Neural Networks with the advanced temporal sequence modeling capabilities of LSTMs . They aligned the telemetry data and model outputs with the standardized MITRE ATT&CK framework to ensure industry relevance . By evaluating the hybrid model on comprehensive security datasets (like CICIDS2017) across both balanced and imbalanced test sets, the authors successfully validated the architecture's high accuracy and scalability . Their research proved that fusing spatial graph analysis with temporal sequence prediction is a highly effective strategy for proactive, time-aware threat detection across complex networks .
+Xia and Saha [26] introduced FinGraphFL, a groundbreaking framework merging graph-based learning with federated learning principles and differential privacy . The researchers tackled the dual challenges prevalent in the financial sector: small and mid-sized institutions lack sufficient labeled data for deep learning, while strict privacy laws prohibit the centralized sharing of sensitive customer data . To solve this, FinGraphFL allowed individual institutions to construct transaction similarity graphs and utilize Graph Attention Networks (GATs) locally to analyze dynamic relationships . To ensure absolute privacy during collaboration, they injected personalized Laplacian noise into model gradients using graph embeddings, securely aggregating the perturbed gradients on a central server . Evaluated extensively on the highly imbalanced 2018CN dataset and the balanced 2023EU dataset, the authors  demonstrated that FinGraphFL achieved impressive accuracy rates of 0.9780 and 0.9839, respectively . This proved the framework can effectively handle varied data distributions while strictly safeguarding user privacy .
+
+
+Wu et al. [27] proposed a sophisticated deep learning method utilizing Continuous-Coupled Neural Networks (CCNN) to detect credit card fraud . The authors argued that traditional machine learning and existing deep learning methods not only struggle with severe class imbalance but also fail to dynamically mimic the complex spatial and temporal pattern recognition capabilities inherent to biological neurons . To replicate brain-like computing, the team mitigated data imbalance using SMOTE and transformed standard 30-dimensional sample feature vectors into 6x6 matrices to act as single-channel images . These matrices were passed through a CCNN layer that simulated continuous neuron activation and dynamic coupling mechanisms, followed by a fully connected layer for final classification . Conducting 10-fold cross-validation on the Kaggle CCFD dataset, the authors  reported that the CCNN model achieved near-perfect results, boasting a 0.9998 accuracy and 1.0000 recall . This study demonstrated that simulating biological neural dynamics drastically enhances both the security and efficiency of real-time anomaly detection .
+Adebayo et al. [28] provided a comprehensive comparative review of machine learning techniques specifically focused on concept drift handling mechanisms for credit card fraud detection . The researchers aimed to address the significant challenge of "concept drift"—the phenomenon where fraudsters continuously change their tactics and behaviors over time, rendering static, non-adaptive models obsolete in highly dynamic financial environments . By surveying a wide array of supervised, unsupervised, semi-supervised, and ensemble machine learning algorithms, they compared the models' abilities to handle overlapping classes and non-stationary data distributions . Analyzing reported performance metrics from extensive existing literature, the authors  concluded that standard classifiers inevitably degrade as fraud patterns evolve . They demonstrated that ensemble techniques and hybrid methods show significantly higher robustness, emphasizing the critical and immediate need for adaptive, online learning systems to manage concept drift effectively in live banking deployments .
+________________
+3. DESIGN AND IMPLEMENTATION
+   1. Title Page 
+See example on the other document.
+   2. Approval Page
+All copies of the report submitted must include original signatures of the Examining Committee on the approval page. It should be prepared in accordance with the sample and should follow the title page. The names of the members of the Examining Committee will be listed one below the other in alphabetical order except the Supervisor's, whose name will be at the top of the list. Beside each name, space for the signature of each examiner should be left. The date at the bottom of the page is the date the report was approved by the Examining Committee.
+   3. Dedication 
+Occasionally, authors would like to dedicate their report to their family members, friends or some scientists in their area of research. The dedication page should follow right after the Approval Page. 
+   4. Acknowledgements 
+The candidate may desire to include a page with a brief note of an acknowledgement of help received from particular people. All organizations proving financial support must also be acknowledged, with project identifications like grant number, etc. 
+   5. Abstract
+The abstract should give the information that will enable a scholar to tell whether he/she wishes to read the complete work. Therefore, the abstract should cover the following points: Statement of the problem, procedure or method, results, conclusions. Two abstracts, one in English and the other in Turkish, should be included. The abstract should contain no headings, tabular material, chemical formulas, or footnotes. Abstracts should not contain references, but author citing is allowed. 
+The abstract page should contain the title of the report. The Turkish abstract ("Özet") must follow the English abstract in the same format. An example of an abstract to be included in the report is given in the other document. 
+   6. Table of Contents, List of Figures, Tables and Symbols / Abbreviations 
+Reports are expected to have a "Table of Contents" for the convenience of the reader. If figures and tables are scattered throughout the text, a separate "List of Figures" (and/or "List of Tables") must be included after the Table of Contents. These lists should include page numbers. Similarly, a "List of Symbols" (or "List of Symbols/ Abbreviations", as appropriate) should be included. Examples of such materials are shown on the other page. "List of Symbols/Abbreviations" can contain abbreviations listed alphabetically as a separate group following the symbols. 
+
+
+   7. Text 
+The text of the report will follow at this point. The first chapter (in most cases, Introduction) will start on the first page of the text, i.e. the first page enumerated in Arabic numerals. When writing your report, pay attention to some of the precautions listed below: 
+* The whole text should be left and right justified. 
+* Periods, commas, semicolons and colons go outside the quotation marks. 
+* The word "data" is plural and requires a plural verb. 
+* Integers from one to nine, inclusive, should be spelled out except when they represent a chapter or a section; for number 10 and above, use numerals. Numbers should be spelled out when they begin a sentence. 
+* Spell out per cent; do not use %, and write per cent as two words without a period within the text. 
+   1. Appendices
+A last section may contain supporting data for the text in the form of one or more appendices. Examples of appendix material include data sheets, questionnaire samples, flowcharts, illustrations, maps, software listings, charts, etc. if the appended data should include oversize illustrations or maps, several alternative methods of inclusions are available. 
+If a section, table, figure, equation etc., is to be included in an appendix, the numbering should follow the same rules used within the report. In this case, however, they should begin with the letter of the respective appendix such as "Table A.l", "Equation (B.4)" etc. Each appendix should have a descriptive title just like chapter headings (See the other document). 
+The developed computer program should be given in a separate diskette, CD or DVD. 
+The format and contents of this diskette, CD or DVD is explained in Appendix B of this document. 
+________________
+
+
+4.  TEST AND RESULTS 
+   1.  Typesetting
+Computer typesetting programs such as MS-WORD for Windows (Version 6.0 or later) or Open Office is highly recommended. Reports written in TEX or LATEX are also acceptable.
+   2.  Paper Quality 
+The original copy shall be typed on 75 or 80 gr/m2 A4-size white paper. All reproduced copies should be of the same grade of paper. 
+   3.  Printer 
+Only laser printer and Ink Jet printer output are acceptable. Printer settings must comply with A4-size paper and must be so that the page is not resized in printing. 
+
+
+
+
+   4.  Reproduction 
+Mimeographed or ditto copies are not acceptable for the Institute or Library copies; however, photocopy reproduction is acceptable for all parts or copies of the report. Care must be taken to insure that the proper grade of paper is used at all times and that copying contrast is dark. 
+   5. Binding 
+The report should be bound in dark blue hard cover. The final bound size of the report should conform to A4 size. The name and surname of the candidate, the project title and the year should be printed in the above order on the spine of the cover. When the report is placed front cover up, the spine should read from left to right. 
+________________
+5.  CONCLUSION 
+   1. Use of Copyrighted Material 
+Writers of reports must assume full responsibility for use of any copyrighted material in their manuscripts. Written permission of the copyright owner must be obtained when extensive use is contemplated. 
+Permission to quote extensively from copyrighted material should be obtained by the candidate from the author or the publisher, whichever holds the copyright. Customarily, authorization is granted on the condition that proper acknowledgement is made. In some instances, however, copyright granting permission to include such material should be kept on file by the candidate for later reference in case questions arise. 
+   2. Publications
+Reports, or extracts from them, may be published only upon release for publication by the major supervisor and provided proper credit is given to Yeditepe University. No report may be published as such before it has been approved by the major supervisor. All reports and separately submitted abstracts are the property of the University.
+Bibliography
+[1] Yang, H.; Shukur, Z.; Sahran, S. A Review of Artificial Intelligence for Financial Fraud Detection. Appl. Sci. 2026, 16, 1931. https://doi.org/10.3390/app16041931
+[2] Yisong Chen, Chuqing Zhao, Yixin Xu, Chuanhao Nie, Yixin Zhang,Deep Learning in Financial Fraud Detection: Innovations, Challenges, and Applications,DataScienceandManagement,2025,,ISSN 2666-7649,https://doi.org/10.1016/j.dsm.2025.08.002.
+[3] Lopez-Rojas, Edgar, Ahmad Elmir, and Stefan Axelsson. "PaySim: A financial mobile money simulator for fraud detection." 28th European modeling and simulation symposium, EMSS, Larnaca. Dime University of Genoa, 2016.
+[4] Alabrah, Amerah. "An improved CCF detector to handle the problem of class imbalance with outlier normalization using IQR method." Sensors 23.9 (2023): 4406.
+[5] Salem, Walaa & El-Hasnony, Ibrahim & Elfetouh, Ahmed & Rezk, Amira. (2025). Enhancing Fraud Detection in Imbalanced Datasets: A Comparative Study of Machine Learning and Deep Learning Algorithms with SMOTE Preprocessing. Mansoura Journal for Computer and Information Sciences. 20. 1-21. 10.21608/mjcis.2025.313097.1007. 
+[6] Albalawi, Tahani, and Samia Dardouri. "Enhancing credit card fraud detection using traditional and deep learning models with class imbalance mitigation." Frontiers in Artificial Intelligence 8 (2025): 1643292.
+[7] Sundaravadivel, P., et al. "RETRACTED ARTICLE: Optimizing credit card fraud detection with random forests and SMOTE." Scientific Reports 15.1 (2025): 17851.
+
+
+[8] Nguyen, Hang, and Bac Le. "Real-Time Transaction Fraud Detection via Heterogeneous Temporal Graph Neural Network." ICAART (2). 2025.
+[9]Sultana, Irin, et al. "detectGNN: Harnessing Graph Neural Networks for Enhanced Fraud Detection in Credit Card Transactions." 2025 13th International Symposium on Digital Forensics and Security (ISDFS). IEEE, 2025.
+[10]Osmond, Andrew Brian, and Dirgantoro Burhanuddin. "GNN Feature Engineering for Credit Card Fraud Detection: A Comprehensive Research Framework." Jurnal Sistem Cerdas 8.2 (2025): 232-247.
+[11]Liu, Yixin, et al. "Anomaly detection in dynamic graphs via transformer." IEEE Transactions on Knowledge and Data Engineering 35.12 (2021): 12081-12094.
+[12]Kabwama, Collin Arnold, et al. "Graph attention networks for credit card fraud detection: A relational learning approach." World Journal of Advanced Research and DOI 10 (2025).
+[13]Duan, Yifan, et al. "Cat-gnn: Enhancing credit card fraud detection via causal temporal graph neural networks." arXiv preprint arXiv:2402.14708 (2024).
+[14]Sha, Qiuwu, et al. "Detecting credit card fraud via heterogeneous graph neural networks with graph attention." arXiv preprint arXiv:2504.08183 (2025).
+[15]Hamilton, Will, Zhitao Ying, and Jure Leskovec. "Inductive representation learning on large graphs." Advances in neural information processing systems 30 (2017).
+[16]Almalki, Fahad, and Mehedi Masud. "Financial fraud detection using explainable AI and stacking ensemble methods." arXiv preprint arXiv:2505.10050 (2025).
+[17]Ojo, Innocent Paul. "Explainable AI for credit card fraud detection: Bridging the gap between accuracy and interpretability." World Journal of Advanced Research and Reviews (2025).
+[18]Prashanth, B. S., et al. "Prediction of bank transaction fraud using TabNet—an adaptive deep learning architecture." International Review of Economics & Finance (2026): 104916.
+[19]Olaniyi, Oluwadayo Mafolasere, et al. "Graph Neural Networks for Multi-Layered Financial Crime Network Detection: An Explainable AI Framework for Anti-Money Laundering." Journal of Engineering Research and Reports 28.2 (2026): 18-36.
+[20]Tewari, Rohit, et al. "TMR-GGNN: Credit Card Fraud Detection Based on Time-Aware Multi-Relational Guided Graph Neural Network." 2025 2nd International Conference on Software, Systems and Information Technology (SSITCON). IEEE, 2025.
+[21]Mienye, Ibomoiye Domor, Ebenezer Esenogho, and Cameron Modisane. "Detecting Imbalanced Credit Card Fraud via Hybrid Graph Attention and Variational Autoencoder Ensembles." AppliedMath 5.4 (2025): 131.
+[22]Bolla, Ramya Lakshmi, et al. "Graph-Enhanced Transformer Network for Fraud Detection in Digital Banking: Integrating GNN and Self-Attention for End-to-End Transaction Analysis." Int. J. Res. Commer. Manag. Stud 7 (2025): 211-222.
+[23]E. Udoh and K. Bakare, "Detecting Financial Fraud through Hybrid AI Models Leveraging Graph Neural Networks and Transactional Behavior Pattern Analysis," International Journal of Computer Applications and Technology (IJCAT), vol. 15, no. 2, pp. 112-128, Feb. 2026.
+[24]Benchaji, Ibtissam, et al. "Enhanced credit card fraud detection based on attention mechanism and LSTM deep model." Journal of Big Data 8.1 (2021): 151.
+[25]Vitulyova, Yelizaveta, et al. "A Hybrid Approach Using Graph Neural Networks and LSTM for Attack Vector Reconstruction." Computers 14.8 (2025): 301.
+[26]Xia, Zhenyu, and Suvash C. Saha. "Fingraphfl: Financial graph-based federated learning for enhanced credit card fraud detection." Mathematics 13.9 (2025): 1396.
+[27]Wu, Yanxi, et al. "A deep learning method of credit card fraud detection based on continuous-coupled neural networks." Mathematics 13.5 (2025): 819.
+[28]Olabowale, Babalola. "ADAPTIVE MACHINE LEARNING MODELS FOR EMERGING FRAUD PATTERN DETECTION." (2023).
+
+
+
+
+	
+
+	
+
+
+
+
+
+@inproceedings{lopez2016paysim,
+  title={PaySim: A financial mobile money simulator for fraud detection},
+  author={Lopez-Rojas, Edgar and Elmir, Ahmad and Axelsson, Stefan},
+  booktitle={28th European modeling and simulation symposium, EMSS, Larnaca},
+  pages={249--255},
+  year={2016},
+  organization={Dime University of Genoa}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APPENDIX A: SAMPLE PAGES 
+The other document presents examples of some report pages typeset in the format described in the proceeding chapters. They include the pages to be found in the preamble of a report (such as title and approval pages, table of contents, etc.), as well as examples of list of references. The format of the cover for the bound copy is shown. Further, this booklet (except its title page) is typeset in the format required for the reports. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+APPENDIX B: FORMAT OF DISKETTE, CD or DVD CONTAINING COMPUTER SOFTWARE
+Listings of software should be given in a diskette/CD or DVD as specified by the Department. The diskette/CD or DVD should contain files containing the source code, one or more sample input and corresponding output, separately. Other than these, there must be a file named "READ.ME". 
+In this ASCII text file, the following sections must appear: 
+* Files in the Disk: In this section, the names of the files together with their contents must be listed. 
+* Hardware Requirements: In this section, the equipment, graphics card, mouse, disk capacity, RAM capacity etc. necessary to run the software must be noted. 
+* Software Requirements: In this section, the operating system, the compiler, linker, and the libraries etc. necessary to compile and link the software must be listed. Please note that no copyrighted material file (compiler, library etc.) should be put on the disk without obtaining the necessary license from the copyright owner.
+
+
+
+
+
+
+[a]Figure 2.1 metin içinde geçmeli

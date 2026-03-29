@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python3 -c \"import torch; print\\(''PyTorch:'', torch.__version__\\); print\\(''MPS:'', torch.backends.mps.is_available\\(\\)\\)\")",
+      "Bash(python3 -c \"import torch_geometric; print\\(''PyG:'', torch_geometric.__version__\\)\")",
+      "Bash(python3 -c \"import xgboost; print\\(''XGB:'', xgboost.__version__\\)\")",
+      "Bash(python3 -c \"import sklearn; print\\(''sklearn:'', sklearn.__version__\\)\")",
+      "Bash(python3 -c \"import shap; print\\(''shap:'', shap.__version__\\)\")",
+      "Bash(du:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(ls -lh /Users/berkkilic/Documents/aiprojects/graduation-p/notebooks/*.ipynb)",
+      "Bash(python3 -c \"import json; nb = json.load\\(open\\(''/Users/berkkilic/Documents/aiprojects/graduation-p/notebooks/01_eda_ieee_cis.ipynb''\\)\\); print\\(f''Cells: {len\\(nb[\"\"cells\"\"]\\)}''\\); print\\(f''Has outputs: {any\\(c.get\\(\"\"outputs\"\"\\) for c in nb[\"\"cells\"\"] if c[\"\"cell_type\"\"] == \"\"code\"\"\\)}''\\); print\\(f''Last modified: from metadata''\\); cells_with_output = [i for i, c in enumerate\\(nb[''cells'']\\) if c[''cell_type''] == ''code'' and c.get\\(''outputs''\\)]; print\\(f''Cells with output: {len\\(cells_with_output\\)}''\\)\")",
+      "Bash(wc -l /Users/berkkilic/Documents/aiprojects/graduation-p/src/**/*.py)",
+      "Bash(.venv/bin/python -c \":*)",
+      "WebFetch(domain:ieeexplore.ieee.org)",
+      "WebFetch(domain:arxiv.org)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/python -c \"import torch; print\\(f''PyTorch: {torch.__version__}''\\)\")",
+      "Bash(.venv/bin/python -c \"import torch; print\\(torch.__version__\\); print\\(torch.version.cuda if torch.version.cuda else ''cpu''\\)\")",
+      "Bash(conda run -n grad python -c \":*)",
+      "Read(//Users/berkkilic/miniconda3/**)",
+      "Read(//Users/berkkilic/anaconda3/**)",
+      "Read(//Users/berkkilic/opt/anaconda3/**)",
+      "Bash(pip3 list:*)",
+      "Bash(.venv/bin/python -c \"import torch_sparse; print\\('torch_sparse OK'\\); import torch; print\\('torch:', torch.__version__\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# Data (never commit raw datasets)
+data/raw/
+data/processed/
+
+# Model checkpoints
+results/checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env

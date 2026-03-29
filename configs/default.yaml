@@ -1,0 +1,32 @@
+# Default hyperparameters for HybridGATVAE (v2 — Dual-Branch)
+
+model:
+  gat_hidden: 128       # increased from 64
+  gat_out: 64           # increased from 32
+  gat_heads: 4
+  gat_layers: 2
+  vae_latent: 32        # increased from 16 (raw 383-dim needs more capacity)
+  vae_hidden: 128       # increased from 64
+  dropout: 0.3
+
+training:
+  lr: 0.001
+  lr_vae: 0.0001        # 10x lower for VAE (prevent catastrophic forgetting)
+  lr_classifier: 0.002  # classifier can learn faster
+  weight_decay: 0.0001
+  epochs: 50
+  patience: 10          # early stopping patience
+  batch_size: 2048      # NeighborLoader batch size
+  num_neighbors: [10, 5]  # neighbors per layer for NeighborLoader
+  lambda1: 0.3          # reconstruction weight (increased for dual-branch)
+  lambda2: 0.01         # KL divergence weight
+  focal_gamma: 2.0
+  focal_alpha: 0.75     # weight for POSITIVE (fraud) class; 0.75 upweights rare fraud (~3%)
+
+dataset:
+  primary: ieee_cis
+  val_split: 0.15
+  test_split: 0.15
+  random_seed: 42
+
+device: auto

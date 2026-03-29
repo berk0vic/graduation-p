@@ -1,0 +1,28 @@
+# PaySim-specific config (6M+ transactions — scale-focused)
+
+model:
+  gat_hidden: 128
+  gat_out: 64
+  gat_heads: 4
+  gat_layers: 2
+  vae_latent: 32
+  vae_hidden: 128
+  dropout: 0.3
+
+training:
+  lr: 0.001
+  weight_decay: 0.0001
+  epochs: 50             # fewer epochs, larger graph
+  lambda1: 0.1
+  lambda2: 0.01
+  focal_gamma: 2.0
+  focal_alpha: 0.75
+
+dataset:
+  primary: paysim
+  filter_fraud_types: true  # only TRANSFER + CASH_OUT
+  val_split: 0.10
+  test_split: 0.10
+  random_seed: 42
+
+device: auto
