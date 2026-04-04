@@ -1,0 +1,175 @@
+\section{Requirements Specification}
+
+This section defines the functional and non-functional requirements of the Hybrid GAT+VAE Fraud Detection System.
+
+% ============================================================
+\subsection{Functional Requirements}
+% ============================================================
+
+\begin{table}[h!]
+\centering
+\caption{Functional Requirements}
+\label{tab:functional-requirements}
+\begin{tabular}{|c|p{4cm}|p{8cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{Description} \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR1 — Data Ingestion \& Graph Construction}} \\
+\hline
+FR1.1 & Load raw transaction data & The system shall load CSV-formatted transaction datasets (IEEE-CIS, PaySim, Elliptic Bitcoin) into memory for processing. \\
+\hline
+FR1.2 & Construct heterogeneous graph & The system shall convert tabular transaction data into a PyTorch Geometric HeteroData graph with three node types (Account, Transaction, Merchant) and multiple edge types (initiates, paid\_to, followed\_by, shares\_identity). \\
+\hline
+FR1.3 & Extract node features & The system shall compute node features including transaction amount, temporal features (hour, day), velocity features (transactions per hour), and account-level aggregates. \\
+\hline
+FR1.4 & Build temporal edges & The system shall create temporal edges between consecutive transactions of the same account within a configurable time window (default: 3600 seconds). \\
+\hline
+FR1.5 & Build identity edges & The system shall create identity-sharing edges between accounts that share the same device fingerprint or IP address. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR2 — Model Training}} \\
+\hline
+FR2.1 & Two-phase training & The system shall support a two-phase training strategy: Phase 1 pre-trains the VAE on normal transactions only, Phase 2 trains the full model end-to-end with differential learning rates. \\
+\hline
+FR2.2 & Mini-batch graph training & The system shall use NeighborLoader for mini-batch training on large graphs, sampling configurable numbers of neighbors per layer. \\
+\hline
+FR2.3 & Focal loss for imbalance & The system shall use Focal Loss with configurable alpha and gamma parameters to handle extreme class imbalance (fraud $<$ 4\%). \\
+\hline
+FR2.4 & Combined loss function & The system shall optimize a combined loss: $L = L_{focal} + \lambda_1 \cdot L_{reconstruction} + \lambda_2 \cdot L_{KL}$, where $\lambda_1$ and $\lambda_2$ are configurable weights. \\
+\hline
+FR2.5 & Early stopping & The system shall implement early stopping based on validation loss with configurable patience to prevent overfitting. \\
+\hline
+FR2.6 & Model checkpointing & The system shall save the best model weights during training and restore them after training completes. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR3 — Fraud Detection \& Inference}} \\
+\hline
+FR3.1 & Fraud scoring & The system shall assign a continuous fraud probability score (0--1) to each transaction using the trained Hybrid GAT+VAE model. \\
+\hline
+FR3.2 & Threshold-based classification & The system shall classify transactions as fraud or legitimate based on an optimized decision threshold (maximizing F1-Score, not fixed at 0.5). \\
+\hline
+FR3.3 & Anomaly detection via VAE & The system shall compute per-transaction reconstruction error from the VAE branch as an unsupervised anomaly signal, complementing the supervised GAT branch. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR4 — Baseline Comparison}} \\
+\hline
+FR4.1 & XGBoost baseline & The system shall train and evaluate an XGBoost classifier on tabular features (no graph) as a baseline. \\
+\hline
+FR4.2 & GCN baseline & The system shall train and evaluate a GCN model on the homogeneous transaction graph. \\
+\hline
+FR4.3 & Ablation models & The system shall train and evaluate GAT-only and VAE-only models to quantify each component's contribution. \\
+\hline
+FR4.4 & Complementarity analysis & The system shall compare model predictions to identify fraud cases caught exclusively by the Hybrid model that XGBoost misses. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR5 — Explainability}} \\
+\hline
+FR5.1 & SHAP explanations & The system shall generate SHAP values for the top fraud-scoring transactions to identify which embedding dimensions drive the fraud decision. \\
+\hline
+FR5.2 & Feature importance ranking & The system shall produce ranked feature importance plots showing the most influential dimensions for fraud detection. \\
+\hline
+FR5.3 & Per-transaction explanations & The system shall generate waterfall plots for individual flagged transactions explaining why they were classified as fraud. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR6 — Evaluation \& Reporting}} \\
+\hline
+FR6.1 & Compute detection metrics & The system shall compute F1-Score, Recall, Precision, AUC-ROC, and Average Precision for the fraud (minority) class. \\
+\hline
+FR6.2 & Optimal threshold search & The system shall search for the F1-optimal decision threshold across 100 candidate values. \\
+\hline
+FR6.3 & Generate comparison tables & The system shall produce CSV tables and bar charts comparing all models side by side. \\
+\hline
+FR6.4 & Cross-dataset evaluation & The system shall evaluate the model on multiple datasets (IEEE-CIS, Elliptic Bitcoin) to demonstrate generalizability. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{FR7 — Web Demo Interface}} \\
+\hline
+FR7.1 & Data upload & The web interface shall allow users to upload a CSV file or load a pre-built graph for fraud detection. \\
+\hline
+FR7.2 & Interactive graph visualization & The web interface shall display the transaction graph with color-coded nodes (fraud/legitimate/account/merchant) using Vis.js. \\
+\hline
+FR7.3 & Model comparison panel & The web interface shall show a side-by-side comparison of XGBoost vs Hybrid model predictions, highlighting cases only the Hybrid catches. \\
+\hline
+FR7.4 & Threshold adjustment & The web interface shall provide a slider to adjust the fraud detection threshold and see real-time metric updates. \\
+\hline
+
+\end{tabular}
+\end{table}
+
+% ============================================================
+\subsection{Non-Functional Requirements}
+% ============================================================
+
+\begin{table}[h!]
+\centering
+\caption{Non-Functional Requirements}
+\label{tab:nonfunctional-requirements}
+\begin{tabular}{|c|p{4cm}|p{8cm}|}
+\hline
+\textbf{ID} & \textbf{Requirement} & \textbf{Description} \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR1 — Performance}} \\
+\hline
+NFR1.1 & Inference latency & The system shall score 100K transactions in under 1 second on GPU (real-time alerting target). \\
+\hline
+NFR1.2 & Training time & The full training pipeline (graph construction + Phase 1 + Phase 2) shall complete within 30 minutes on a single GPU (NVIDIA T4 or equivalent). \\
+\hline
+NFR1.3 & Memory efficiency & The system shall process IEEE-CIS (590K transactions) within 16GB GPU memory using mini-batch training (NeighborLoader). \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR2 — Scalability}} \\
+\hline
+NFR2.1 & Large dataset support & The system shall construct graphs from datasets with up to 6.3M transactions (PaySim) without out-of-memory errors. \\
+\hline
+NFR2.2 & Linear graph construction & Graph construction time shall scale approximately linearly with the number of transactions (verified on 10K--500K samples). \\
+\hline
+NFR2.3 & Batch inference & The system shall support batch inference via NeighborLoader for graphs that do not fit in GPU memory at once. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR3 — Accuracy}} \\
+\hline
+NFR3.1 & Minimum AUC-ROC & The Hybrid model shall achieve AUC-ROC $\geq$ 0.85 on the IEEE-CIS test set. \\
+\hline
+NFR3.2 & Fraud recall target & The Hybrid model shall achieve Recall $\geq$ 0.55 on the fraud (minority) class. \\
+\hline
+NFR3.3 & Complementarity value & The Hybrid model shall detect at least 10 fraud cases that XGBoost misses on the IEEE-CIS dataset, demonstrating the value of graph structure. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR4 — Portability \& Compatibility}} \\
+\hline
+NFR4.1 & Cloud execution & All notebooks shall run on Google Colab (free tier) with GPU runtime without modification. \\
+\hline
+NFR4.2 & Device auto-detection & The system shall automatically detect and use the best available device (CUDA $>$ MPS $>$ CPU). \\
+\hline
+NFR4.3 & Python compatibility & The system shall be compatible with Python 3.10+ and PyTorch 2.x. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR5 — Reproducibility}} \\
+\hline
+NFR5.1 & Random seed control & All random operations (train/test split, model initialization, XGBoost) shall use fixed seeds (default: 42) for reproducible results. \\
+\hline
+NFR5.2 & Configuration file & All hyperparameters shall be centralized in a YAML configuration file (\texttt{configs/default.yaml}) rather than hardcoded. \\
+\hline
+NFR5.3 & Result persistence & The system shall save all results (metrics tables, figures, model weights) to the \texttt{results/} directory for later analysis. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR6 — Usability}} \\
+\hline
+NFR6.1 & Notebook-based workflow & The entire experiment pipeline shall be executable through sequentially numbered Jupyter notebooks (01--06). \\
+\hline
+NFR6.2 & Progress logging & Training loops shall print progress every N epochs with loss values, learning rate, and validation metrics. \\
+\hline
+NFR6.3 & Web interface simplicity & The web demo shall be a single-page application requiring no installation beyond Flask and standard Python packages. \\
+\hline
+
+\multicolumn{3}{|l|}{\textbf{NFR7 — Maintainability}} \\
+\hline
+NFR7.1 & Modular source code & Model components (GAT encoder, VAE, classifier, losses) shall be in separate Python modules under \texttt{src/}. \\
+\hline
+NFR7.2 & Dataset abstraction & The graph builder shall support multiple datasets (IEEE-CIS, PaySim) through a single \texttt{build\_hetero\_graph(df, dataset)} interface. \\
+\hline
+
+\end{tabular}
+\end{table}
