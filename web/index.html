@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE-CIS — Örnek hetero graf</title>
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #0f1419;
+      color: #e7e9ea;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 12px 20px;
+      border-bottom: 1px solid #2f3336;
+      background: #16181c;
+    }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 6px 0 0; font-size: 0.85rem; color: #8b98a5; max-width: 720px; line-height: 1.45; }
+    #legend {
+      display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 10px; font-size: 0.8rem;
+    }
+    #legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; }
+    #net {
+      flex: 1;
+      min-height: 480px;
+      background: #0f1419;
+    }
+    #err {
+      padding: 24px;
+      color: #f4212e;
+      max-width: 560px;
+    }
+    code { background: #2f3336; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IEEE-CIS hetero graf — örnek altgraf</h1>
+    <p>
+      Bu sayfa <code>graph_sample.json</code> dosyasını yükler. Önce:
+      <code>python scripts/export_graph_sample.py</code> çalıştırın. Sunucu:
+      <code>python -m http.server 8765 --directory web</code> → <code>http://localhost:8765/</code>
+    </p>
+    <div id="legend">
+      <span><i class="dot" style="background:#e74c3c"></i> Fraud işlem</span>
+      <span><i class="dot" style="background:#3498db"></i> Legit işlem</span>
+      <span><i class="dot" style="background:#2ecc71"></i> Account (card1)</span>
+      <span><i class="dot" style="background:#9b59b6"></i> Merchant (addr1+ProductCD)</span>
+    </div>
+  </header>
+  <div id="err" style="display:none"></div>
+  <div id="net"></div>
+  <script>
+    const colors = {
+      fraud: { background: '#c0392b', border: '#e74c3c' },
+      transaction: { background: '#2874a6', border: '#3498db' },
+      account: { background: '#1e8449', border: '#2ecc71' },
+      merchant: { background: '#6c3483', border: '#9b59b6' },
+    };
+
+    function showError(msg) {
+      const el = document.getElementById('err');
+      el.style.display = 'block';
+      el.textContent = msg;
+    }
+
+    fetch('graph_sample.json')
+      .then(r => {
+        if (!r.ok) throw new Error('graph_sample.json bulunamadı. Önce: python scripts/export_graph_sample.py');
+        return r.json();
+      })
+      .then(data => {
+        const visNodes = data.nodes.map(n => {
+          const c = colors[n.group] || colors.transaction;
+          return {
+            id: n.id,
+            label: n.label,
+            title: n.title,
+            color: c,
+            font: { color: '#fff', size: 13 },
+          };
+        });
+        const visEdges = data.edges.map((e, i) => ({
+          id: 'e' + i,
+          from: e.from,
+          to: e.to,
+          title: e.label,
+          label: '',
+          arrows: 'to',
+          color: { color: '#536471', highlight: '#1d9bf0' },
+        }));
+
+        const container = document.getElementById('net');
+        const netData = { nodes: new vis.DataSet(visNodes), edges: new vis.DataSet(visEdges) };
+        const options = {
+          physics: {
+            enabled: true,
+            barnesHut: { gravitationalConstant: -12000, springLength: 140 },
+          },
+          interaction: { hover: true, tooltipDelay: 80 },
+          edges: { smooth: { type: 'continuous' } },
+        };
+        new vis.Network(container, netData, options);
+      })
+      .catch(e => showError(e.message));
+  </script>
+</body>
+</html>
